@@ -1,0 +1,19 @@
+{
+    "name": "avat/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "avatrezaei\\HelloComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "avatrezaei",
+            "email": "avatrezaei88@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
